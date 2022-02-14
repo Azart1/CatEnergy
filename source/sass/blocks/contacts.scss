@@ -1,0 +1,38 @@
+.contacts {
+    padding: 29px 0;
+    padding-bottom: 0;
+    background-color:$white;
+}
+
+.contacts__block {
+    display: flex;
+    padding: 0 20px;
+    padding-bottom: 25px;
+}
+.contacts__text {    
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+text-transform: uppercase;
+
+color: $black;
+}
+.contacts__address {  
+    width: 180px;
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+color: $darkest-gray;
+}
+.contacts__map {
+    width: 320px;
+    min-height: 362px;
+    background-color:$light-gray;
+    background-image: url('../img/bg-map-m.png');
+}

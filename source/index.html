@@ -10,16 +10,16 @@
 <body class="page">
     <header class="page__header header">
         <a href="#" class="header__logo">
-            <img class="header__img" src="img/logo-mobile.svg" alt="Логотип Cat Energy" width="33" height="38">
+            <img class="header__img" src="img/logo-mobile.svg" alt="Логотип Cat Energy" width="190" height="38">
         </a>
-        <nav class="header__main-nav main-nav">          
-        <button class="main-nav__toggle" type="button">
+        <nav class="header__main-nav main-nav main-nav--opened  main-nav--nojs">          
+        <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
             <span class="visually-hidden">Открыть меню</span>
         </button>    
         <div class="main-nav__wrapper">    
             <ul class="main-nav__list site-list">                
                 <li class="site-list__item site-list__item--active">
-                    <a class="site-list__link">Главная</a>
+                    <a  href="#" class="site-list__link">Главная</a>
                 </li>
                 <li class="site-list__item">
                     <a class="site-list__link" href="catalog.html">Каталог продукции</a>
@@ -36,17 +36,17 @@
         <section class="main__promo promo">
             <h2 class="promo__title">Функциональное питание для котов</h2>
             <p class="promo__slogan">Занялся собой? Займись котом!</p>
-            <a href="form.html" class="button button--choose-program">Подобрать программу</a>
+            <a href="form.html" class="promo__button button button--choose-program">Подобрать программу</a>
         </section>
         <section class="main__programs programs">
             <h2 class="visually-hidden">Наши программы</h2>
                 <ul class="programs__list">
-                    <li class="programs__item">
+                    <li class="programs__item programs__item--slim">
                         <h3 class="programs__title">похудение</h3>
                         <p class="programs__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
                         <a href="#" class="programs__link">каталог slim</a>
                     </li>
-                    <li class="programs__item">
+                    <li class="programs__item programs__item--mass">
                         <h3 class="programs__title">Набор массы</h3>
                         <p class="programs__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
                         <a href="#" class="programs__link">каталог pro</a>
@@ -56,16 +56,16 @@
         <section class="main__advantages advantages">
             <h2 class="advantages__title">Как это работает</h2>
             <ul class="advantages__list">
-                <li class="advantages__item">
+                <li class="advantages__item advantages__item--1">
                     <p class="advantages__description">Функциональное питание содержит только полезные питательные вещества.</p>
                 </li>
-                <li class="advantages__item">
+                <li class="advantages__item advantages__item--2">
                     <p class="advantages__description">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
                 </li>
-                <li class="advantages__item">
+                <li class="advantages__item advantages__item--3">
                     <p class="advantages__description">Замените один-два приема обычной еды на наше функциональное питание.</p>
                 </li>
-                <li class="advantages__item">
+                <li class="advantages__item advantages__item--4">
                     <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
                 </li>
             </ul>
@@ -85,22 +85,22 @@
             </div>
             <p class="example__total-price">Затраты на питание: 15 000 РУБ. </p>
             <div class="example__interactive">
-                <div class="example__before-block">
-                    <img src="/img/before-mobile .jpg" class="example__before-pic" >
+                <div class="example__pic-block example__pic-block--after">
+                    <img src="/img/before-mobile.png" class="example__before-pic" alt="Кот до похудения" width ="311" height="232">
+                    <img src="/img/after-mobile.png" class="example__after-pic" >
                 </div>
-                <div class="example__after-block">
-                    <img src="/img/after-mobile .jpg" class="example__after-pic" >
-                </div>
-                <div class="example__scale scale">                    
-                    <span class="scale__before">Было</span>
-                    <div class="scale__bar"></div>
-                    <span class="scale__after">Стало</span>
+                <div class="example__scale ">                    
+                    <span class="example__scale-before">Было</span>
+                    <div class="example__scale-bar">
+                        <div class="example__scale-inner example__scale-inner--before"></div>
+                    </div>
+                    <span class="example__scale-after">Стало</span>
                 </div>
             </div>
         </section>
         <section class="main-contacts contacts">
             <div class="contacts__block">
-                <div class="contacts__text">приглашаем к сотрудничеству дилеров!</div>
+                <div class="contacts__text">Приглашаем <br> к сотрудничеству дилеров!</div>
                 <address class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
             </div>
             <div class="contacts__map"></div>
@@ -142,6 +142,7 @@
             </a>
         </div>
 
-    </footer>    
+    </footer>        
+  <script src="js/script.js"></script>
 </body>
 </html>
