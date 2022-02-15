@@ -57,11 +57,11 @@ color: $black;
     border-radius: 4px;
 }
 
-.example__pic-block--before .example__before-pic {
+.example__pic-block--before .example__after-pic {
     display: none;
     }
 
-.example__pic-block--after .example__after-pic {
+.example__pic-block--after .example__before-pic {
     display: none;
       }
 

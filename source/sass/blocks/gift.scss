@@ -1,0 +1,26 @@
+.gift {
+    padding: 36px 20px;
+}
+.gift__wrapper {
+    width: 100%;
+    min-height: 289px;
+    background-image:     
+    url('../img/icon_gift.svg'),
+    url('../img/bg-gift.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 28%, 0;
+    border-top: 1px solid $white;
+}
+.gift__text {   
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: $white;
+width: 165px;
+display: block;
+margin:  0 auto;
+text-align: center;
+margin-top: 188px;
+}
