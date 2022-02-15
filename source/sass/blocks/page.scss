@@ -1,3 +1,12 @@
-.page{
-  padding: 0 calc((100% - 320px) / 2);}
+
+.page {  
+  padding: 0 calc((100% - 320px) / 2);
+
+  @media (min-width: $tablet-width) { 
+    padding: 0 calc((100% - 768px) / 2);}
+
+  @media (min-width: $desktop-width) { 
+    padding: 0 calc((100% - 1440px) / 2);
+  }
+}
   
