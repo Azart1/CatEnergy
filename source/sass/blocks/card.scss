@@ -13,7 +13,7 @@
     align-self:center;
 }
 .card__title {
-    font-family: Oswald;
+    font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -43,7 +43,7 @@
     border:1px solid $green; 
     background-color: $green;
     color:$white;
-    font-family: Oswald;
+    font-family: "Oswald", "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -83,7 +83,7 @@ margin-top: 7px;
 .card__button--more {    
 background: $light-gray;
 border:none;
-font-family: Oswald;
+font-family: "Oswald", "Arial", sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
