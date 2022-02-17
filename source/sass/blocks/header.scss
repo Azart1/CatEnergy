@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: space-between;
   }
+  @media (min-width: $desktop-width) {
+    padding: 0 110px;
+    padding-top: 60px;
+  }
 }
 .header__logo {
   display: block;
@@ -16,6 +20,25 @@
     padding-top: 0;
     padding-left: 0;
     width: 193px;
-    height: 69px;
+    height: 69px;  }
+  @media (min-width: $desktop-width) {
+    padding-top: 0;
+    padding-left: 0;
+    width: 193px;
+    height: 69px;  }
   }
-}
+  .header__img {
+
+    @media (min-width: $desktop-width) {
+        max-width: 206px;
+        width: 206px;
+        height: 60px;
+        &:hover {
+          opacity: 0.8;
+        }
+      
+        &:active {
+          opacity: 0.6;
+        }    
+      }
+    }

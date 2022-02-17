@@ -9,3 +9,11 @@
     padding: 0 calc((100% - 1440px) / 2);
   }
 }
+.page__wrapper {
+  @media (min-width: $desktop-width) {
+    background-image: url('../img/bg-index-cat-d.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 720px 700px;
+}
+}

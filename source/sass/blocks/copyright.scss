@@ -23,3 +23,16 @@
 .copyright__link-pic {
   margin-top: 5px;
 }
+
+.copyright__logo {
+  @media (min-width: $desktop-width) {
+    &:hover {
+      fill: $green;
+    }
+
+    &:active {
+      opacity: 0.3;
+      fill: $green;
+    }
+  }
+}

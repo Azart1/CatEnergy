@@ -26,6 +26,18 @@
   margin-bottom: 10px;
 }
 
+.social__link svg {
+    @media (min-width: $desktop-width) {
+        &:hover {
+          fill:$green;
+        }
+      
+        &:active {
+          opacity: 0.3;
+          fill:$green;
+        }    
+      }
+  }
 .social__logo--vk {
   @media (min-width: $tablet-width) {
     width: 30px;
@@ -41,6 +53,6 @@
 .social__logo--facebook {
   @media (min-width: $tablet-width) {
     width: 28px;
-    height: 33px;
+    height: 27px;
   }
 }

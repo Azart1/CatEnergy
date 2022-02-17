@@ -6,11 +6,24 @@
     padding: 0;
     padding-top: 35px;
   }
+  @media (min-width: $desktop-width) {
+    display: flex;
+    padding: 0 113px;
+    padding-top: 12px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(234, 234, 234, 1) 20%
+    );
+  }
 }
 
 .example__wrapper {
   @media (min-width: $tablet-width) {
     padding: 0 30px;
+  }
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 
@@ -27,6 +40,9 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 0;
   }
 }
 
@@ -46,6 +62,10 @@
     width: 690px;
     margin-top: 65px;
   }
+  @media (min-width: $desktop-width) {
+    width: 435px;
+    margin-top: 145px;
+  }
 }
 
 .example__container {
@@ -56,6 +76,10 @@
   @media (min-width: $tablet-width) {
     justify-content: flex-start;
     margin-top: 53px;
+  }
+  @media (min-width: $desktop-width) {
+    margin-top: 69px;
+    width: 436px;
   }
 }
 
@@ -123,6 +147,9 @@
     width: 127px;
     top: 61px;
   }
+  @media (min-width: $desktop-width) {
+    background-color: $gray-lightest;
+  }
 }
 
 .example__total-price {
@@ -146,6 +173,19 @@
     margin-left: auto;
     margin-top: 8px;
     margin-right: 0;
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+  }
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-top: 59px;
+    width: 325px;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 .example__interactive {
@@ -161,6 +201,9 @@
       rgba(255, 255, 255, 1) 31%,
       rgba(234, 234, 234, 1) 31%
     );
+  }
+  @media (min-width: $desktop-width) {
+    background: none;
   }
 }
 .example__pic-block {
@@ -182,6 +225,9 @@
     height: 499px;
     width: 666px;
     margin-left: 48px;
+  }
+  @media (min-width: $desktop-width) {
+    width: 560px;
   }
 }
 .example__after-pic {
@@ -267,19 +313,7 @@
     background-color: $white;
     border-radius: 100%;
   }
-} /*
-.example__scale-inner::before {
-    @media (min-width: $tablet-width) {    
-        display: block;
-        content: "";
-        top: 17px;
-        left: 17px;
-        width: 8px;
-        height: 8px;
-        border-radius: 100%;
-        background-color: red;
-    }
-}*/
+}
 .example__scale-inner--before {
   left: 4px;
   @media (min-width: $tablet-width) {
@@ -287,6 +321,7 @@
   }
 }
 .example__scale-inner--after {
+  left: 48px;
   @media (min-width: $tablet-width) {
     left: 200px;
   }
