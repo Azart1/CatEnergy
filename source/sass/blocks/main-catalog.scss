@@ -1,19 +1,19 @@
 .main-catalog {
-    border-top:1px solid $gray;
+  border-top: 1px solid $gray;
 }
-.main-catalog__title {    
-    font-family: "Oswald", "Arial", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 36px;
-color: $black;
-text-align: left;
-margin-top: 27px;
-margin-bottom: 41px;
-padding: 0 20px;
+.main-catalog__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: $black;
+  text-align: left;
+  margin-top: 27px;
+  margin-bottom: 41px;
+  padding: 0 20px;
 }
 .catalog__lsit {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }

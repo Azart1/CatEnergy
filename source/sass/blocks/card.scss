@@ -1,102 +1,101 @@
-
 .card {
-    border-top: 1px solid $gray;    
-    padding: 0 18px 24px 20px;
-    display: flex;
-    flex-wrap: wrap;
+  border-top: 1px solid $gray;
+  padding: 0 18px 24px 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .card__wrapper {
-    width: 142px;
-    margin-bottom: 8px;
+  width: 142px;
+  margin-bottom: 8px;
 }
-.card__picture{
-    align-self:center;
+.card__picture {
+  align-self: center;
 }
 .card__title {
-    font-family: "Oswald", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    align-items: center;
-    text-transform: uppercase;
-    color: $black;
-    width: 76px;
-    margin-top: 20px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  color: $black;
+  width: 76px;
+  margin-top: 20px;
 }
 .card__table {
-    width: 100%;
-    margin-top: 12px;
+  width: 100%;
+  margin-top: 12px;
 }
 .card__table-data {
-    padding: 0;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    color: $darkest-gray;
+  padding: 0;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: $darkest-gray;
 }
 .card__button {
-    width: 280px;
-    height: 40px;
-    border:1px solid $green; 
-    background-color: $green;
-    color:$white;
-    font-family: "Oswald", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 38px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin-top: 14px;
+  width: 280px;
+  height: 40px;
+  border: 1px solid $green;
+  background-color: $green;
+  color: $white;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 14px;
 }
 .card__table-data--left {
-    text-align: left;
+  text-align: left;
 }
 .card__table-data--right {
-    text-align: right;
+  text-align: right;
 }
-.card__picture {    
-    padding-top: 18px;
+.card__picture {
+  padding-top: 18px;
 }
 
 .card--more {
-    background-image: url('../img/bg-plus.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 13%;
-    background-size: 30px 30px;
+  background-image: url("../img/bg-plus.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 13%;
+  background-size: 30px 30px;
 }
 .card__text {
-font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
-color: $darkest-gray;
-text-align: center;
-margin: 0 auto;
-margin-top: 7px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: $darkest-gray;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 7px;
 }
-.card__button--more {    
-background: $light-gray;
-border:none;
-font-family: "Oswald", "Arial", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 38px;
-text-align: center;
-text-transform: uppercase;
-color: $darkest-gray;
-margin-top: 22px;
-margin-bottom: 0;
+.card__button--more {
+  background: $light-gray;
+  border: none;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $darkest-gray;
+  margin-top: 22px;
+  margin-bottom: 0;
 }
 .card__title--more {
-width: 100%;
-text-align: center;
-margin-top: 78px;
-margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 78px;
+  margin-bottom: 0;
 }
