@@ -43,6 +43,22 @@
   @media (min-width: $desktop-width) {
     font-size: 20px;
     line-height: 30px;
+    color: $black;
+    padding: 15px 0 4px 0;
+    &:hover {
+      color: rgba($black, 0.6);
+    }
+
+    &:active {
+      color: rgba($black, 0.3);
+    }
+}
+}
+
+.site-list__link--index {
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
     color: $white;
     padding: 15px 0 4px 0;
     &:hover {
@@ -53,12 +69,21 @@
       color: rgba($white, 0.3);
     }
 }
+  
+}
+.site-list__link--index-current {
+  @media (min-width: $tablet-width) {
+    border-bottom: 2px solid $green;
+  }
+  @media (min-width: $desktop-width) {
+    border-bottom: 2px solid $white;
+}
 }
 .site-list__link--current {
   @media (min-width: $tablet-width) {
     border-bottom: 2px solid $green;
   }
   @media (min-width: $desktop-width) {
-    border-bottom: 2px solid $white;
+    border-bottom: 2px solid $green;
 }
 }

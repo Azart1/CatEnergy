@@ -1,5 +1,8 @@
 .main-catalog {
   border-top: 1px solid $gray;
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 }
 .main-catalog__title {
   font-family: "Oswald", "Arial", sans-serif;
@@ -12,6 +15,17 @@
   margin-top: 27px;
   margin-bottom: 41px;
   padding: 0 20px;
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 47px;
+    margin-bottom: 0px;
+    padding: 0 30px;
+  }
+  @media (min-width:$desktop-width){    
+    margin-top: 64px;
+    padding: 0 112px;
+  }
 }
 .catalog__lsit {
   list-style: none;

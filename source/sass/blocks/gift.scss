@@ -1,5 +1,9 @@
 .gift {
-  padding: 36px 20px;
+  padding: 38px 20px;
+  @media (min-width: $tablet-width) {   
+    padding: 68px 31px;
+    padding-bottom: 71px;
+}
 }
 .gift__wrapper {
   width: 100%;
@@ -8,6 +12,11 @@
   background-repeat: no-repeat;
   background-position: 50% 28%, 0;
   border-top: 1px solid $white;
+  @media (min-width: $tablet-width) {  
+    background-image: url("../img/icon_gift.svg"), url("../img/bg-gift-t.jpg");
+    background-position: 12% 47%, 0;
+    min-height: 200px;
+}
 }
 .gift__text {
   font-family: Arial;
@@ -21,4 +30,10 @@
   margin: 0 auto;
   text-align: center;
   margin-top: 188px;
+  @media (min-width: $tablet-width) { 
+    margin-left: auto;
+    margin-top: 70px;
+    margin-right: 120px;
+    text-align: left;
+}
 }
