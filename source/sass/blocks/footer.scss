@@ -11,6 +11,11 @@
     align-items: center;
     justify-content: space-between;
   }
+  @media (min-width: $desktop-width) {
+    padding: 39px 28px;
+    padding: 42px 114px;
+    padding-right: 99px;
+  }
 }
 .footer__logo {
   padding: 20px 0;

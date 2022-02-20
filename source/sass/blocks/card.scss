@@ -20,6 +20,8 @@
   }
   @media (min-width: $desktop-width) {
     width: 245px;
+    margin-bottom: 58px;
+    padding: 10px 0 40px 0;
   }
 }
 .card__wrapper {
@@ -29,6 +31,9 @@
       width: 100%;
       padding: 5px 36px 0px 37px;
       margin-bottom: 33px;
+  }
+  @media (min-width: $desktop-width) {
+    padding: 8px 36px 0px 41px;
   }
 }
 .card__title {
@@ -50,8 +55,12 @@
     margin-top: 0;
     text-align: center;
     padding: 14px 20px;
+    padding-bottom: 2px;    
+  }
+  @media (min-width: $desktop-width) {
+    padding: 14px 20px;
     padding-bottom: 2px;
-    
+    padding-left: 17px;
   }
 }
 .card__table {
@@ -71,6 +80,10 @@
     line-height: 16px;
     padding: 8px 0;
     padding-bottom: 7px;
+  }
+  @media (min-width: $desktop-width) { 
+      padding: 7px 0;
+      padding-bottom: 7px;
   }
 }
 .card__button {
@@ -95,6 +108,8 @@
   @media(min-width:$desktop-width){
     width: 168px;
     height: 40px;
+    padding-left: 7px;
+    padding-top: 1px;
   }
 }
 .card__table-data--left {
@@ -107,6 +122,9 @@
   padding-top: 18px;
   @media (min-width: $tablet-width) {
       padding-top:0 ;
+  }
+  @media(min-width:$desktop-width){
+    padding-left: 15px;
   }
 }
 .card__picture--big {    
@@ -130,6 +148,9 @@
     background-size: 60px 60px;
     background-position: 50% 31%;
     padding-bottom: 0;
+}
+@media(min-width:$desktop-width){  
+    background-position: 50% 30%;
 }
 }
 
@@ -168,6 +189,10 @@
   text-align: center;
   margin-top: 78px;
   }
+  @media(min-width:$desktop-width){    
+    width:200px;
+    padding-left:24px ;
+  }
 }
 .card__text--more {
   @media(min-width:$tablet-width){        
@@ -178,6 +203,10 @@
   line-height: 18px;
   margin-bottom: 67px;
   }
+  @media(min-width:$desktop-width){
+    margin-left: 36px;
+  }
+
 }
 .card__wraper--more {    
     width: 100%;
