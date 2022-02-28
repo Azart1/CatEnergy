@@ -5,6 +5,7 @@
   background-color: $white;
   @media (min-width: $tablet-width) {
     padding-top: 67px;
+    background-color: $light-gray;
   }
   @media (min-width: $desktop-width) {
     padding: 0;
@@ -83,4 +84,10 @@
   @media (min-width: $desktop-width) {
     background-image: url("../img/bg-map-d.png");
   }
+}
+
+.contacts--index {  
+  @media (min-width: $tablet-width) {
+    background-color: $white;
+}
 }
